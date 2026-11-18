@@ -30,8 +30,8 @@ var BOUTIQUE_API = (function () {
   /* -------------------------------------------------------
      IDENTIFIANTS DU PROJET (deja remplis)
      ------------------------------------------------------- */
- var SUPABASE_URL = 'https://ymzfozxmgmzikfraaomo.supabase.co';
- var SUPABASE_CLE = 'sb_publishable_IZXkOncYot4uC_lTwJasYQ_4gLfr8t1';
+ var URL_BASE = 'https://ymzfozxmgmzikfraaomo.supabase.co';
+ var CLE_PUBLIQUE = 'sb_publishable_IZXkOncYot4uC_lTwJasYQ_4gLfr8t1';
 
 
   /* -------------------------------------------------------
