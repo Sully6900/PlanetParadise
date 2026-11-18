@@ -25,8 +25,8 @@
 
 /* Adresse du projet et clé publique. Ces deux lignes doivent
    rester AVANT var BOUTIQUE : le reste du site les utilise. */
-var SUPABASE_URL = "https://REMPLACER.supabase.co";
-var SUPABASE_CLE = "REMPLACER_PAR_LA_CLE_PUBLIQUE";
+ var URL_BASE = 'https://jrmcyurpaedspxileshx.supabase.co';
+ var CLE_PUBLIQUE = 'sb_publishable_exN3GbYVHQ6QfHfRl7mGdQ_U4Gj_T9f';
 
 var BOUTIQUE = {
 
@@ -198,12 +198,12 @@ var BOUTIQUE = {
      Pour desactiver un envoi, passez « active » a false.
      ------------------------------------------------------- */
   notifications: {
-    url: "https://REMPLACER.supabase.co/functions/v1/notifier-commande",
+    url: "https://jrmcyurpaedspxileshx.supabase.co/functions/v1/notifier-commande",
     active: true
   },
 
   notifEtape: {
-    url: "https://REMPLACER.supabase.co/functions/v1/notifier-etape",
+    url: "https://jrmcyurpaedspxileshx.supabase.co/functions/v1/notifier-etape",
     active: true
   },
 
